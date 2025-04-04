@@ -1,0 +1,16 @@
+/*Index*/
+
+.indexcont{
+    @include flex(row, center, center );
+    height: 500px;
+    
+}
+
+.indextxt{
+    font-family: $fontfamily;
+    text-align: left;
+    color: #459029;
+    font-size: 40px;
+    align-content: center;
+    width: 400px;
+}

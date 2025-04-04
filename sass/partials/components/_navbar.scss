@@ -1,0 +1,25 @@
+.navbar {
+    @include flex(column, center, center );
+    width: 100%;
+}
+.navbar ul {
+    width: 100%;
+    @include flex(row, center, space-evenly );
+    background-color: $green;
+    border-radius: 8px;
+}
+.nav-li {
+   list-style: none;
+}
+.nav-link {  
+    text-decoration: double;
+    color: white;
+    &:hover {text-decoration: underline;}
+}
+
+
+.logo{
+    width: 648px;
+    height: 245px;
+    text-align: center;
+}
